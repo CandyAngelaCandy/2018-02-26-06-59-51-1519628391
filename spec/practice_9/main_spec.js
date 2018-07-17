@@ -156,6 +156,8 @@ describe("Class", () => {
 
             klass.appendMember(student);
 
+            //console.log("hhxx" + student.klass.number);
+
             expect(student.klass).to.equal(klass);
         });
     });
