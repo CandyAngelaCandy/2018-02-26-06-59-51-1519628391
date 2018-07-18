@@ -33,6 +33,14 @@ class Teacher extends Person{
             return `${super.introduce()} I am a Teacher. I don't teach Jerry.`
         }
     }
+
+    leaderNotify(student){
+        console.log(`I am Tom. I know Jerry become Leader of Class ${student.klass.number}.`);
+    }
+
+    joinNotify(student){
+        console.log(`I am Tom. I know Jerry has joined Class ${student.klass.number}.`);
+    }
 }
  
 export default Teacher;

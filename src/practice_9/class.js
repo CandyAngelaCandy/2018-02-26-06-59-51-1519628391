@@ -20,7 +20,7 @@ class Class{
     }
 
     appendMember(student){
-      student.klass.number = this.number;
+      student.klass= this;
     }
 }
 
